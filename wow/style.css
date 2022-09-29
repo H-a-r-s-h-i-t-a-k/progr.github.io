@@ -1,0 +1,80 @@
+
+    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.slidebar{
+ background-color: rgb(9, 109, 101);
+ width: 12vw;
+ font-family: 'Josefin Sans', sans-serif;
+padding: 2px;
+height:100vw;
+
+}
+.slidebar nav{
+    padding:14px
+
+}
+.slidebar nav li{
+   
+        padding:30px 0;
+    font-size:20px;
+    font-weight: bolder;
+}
+.main{
+    /* background-color: rgb(28, 156, 156); */
+width: 90vw;
+
+}
+.container{
+    display: flex;
+
+}
+.infocontainer{
+    /* background-color: aquamarine; */
+    width: 80vw;
+height:80vh;
+margin:100px auto;
+display: flex;
+justify-content: space-around;
+}
+.devpic{
+    display:flex;
+   
+    
+    justify-content: center;
+}
+.devpic img
+{
+ height:80vh;
+}
+.devinfo{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-family: 'Poppins', sans-serif;
+     font-size: xx-large;
+}
+.name{
+
+     font-size: xxx-large;
+   
+/* font-family: 'Poppins', sans-serif; */
+    font-weight: 900;
+}
+.about{
+    font-size:x-large;
+    font-variant-caps: small-caps;
+    font-weight: bolder;
+}
+.buttons button{
+    
+     font-size: xxx-large;
+font-family: 'Poppins', sans-serif;
+}
